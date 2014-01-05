@@ -29,7 +29,7 @@
 \usepackage{fancyhdr}                  %custom footer
 \pagestyle{fancy}
 \fancyhf{}
-\rfoot{\small\color{headings} {\sffamily Last update: \today}. 
+\rfoot{\small\color{headings} {\sffamily Last update: \today}.
 Typeset with X\LaTeX}
 \renewcommand{\headrulewidth}{0pt}
 
@@ -43,9 +43,8 @@ Typeset with X\LaTeX}
 
 \begin{document}
 \color{text1} % set text color for the whole doc
-     \par{\centering{\sffamily\huge Joseph Randall Hunt}\\
-      \color{headings}\fontspec[Variant = 2]{Zapfino} Curriculum 
-      {Vit\fontspec[Variant = 3]{Zapfino}\ae}\\[25pt]\par
+     \par{\centering{\sffamily\huge J. Randall Hunt}\\
+      \color{headings}\fontspec[Variant = 2]{Zapfino} Resumé \par
       %\color{headings}\fontspec[Variant = 2]
       %{Zapfino}R\'esum\'e\\[20pt]
       {\color{white} \hrule}} %does this rule really change anything?
@@ -55,23 +54,36 @@ Typeset with X\LaTeX}
 \vspace{0pt}   %trick
 
 \section{Work Experience}
+
+   \raggedleft
+   \textsc{\normalsize June 2012 -- Present}\par
+   \raggedright\large Python Engineer\\
+   \textsc{\href{http://mongodb.org/}{The MongoDB Company}}\\
+   \normalsize{Managed continuous integration (buildbot, jenkins, travis)
+   across multiple platforms (FreeBSD, Windows, Linux, OSX). Substantially
+   reduced cost of maintaining buildslaves (\$10000s per month). Attended
+   confrences and gave technical presenations on devops, mongodb, and
+   python. Contributed to several open-source projects.}\\[5pt]
+   \raggedleft
+   \textsc{\normalsize May 2011 -- Oct 2011}\par
+   \raggedright\large Python Engineer\\
+   \textsc{hackNY, \href{http://fondu.com/}{Fondu}}\\
+   \normalsize{Designed and implemented a collaborative filtering
+   recommendation engine in Python and C which improved recommendation
+   speed (initial response and pre-calculations) by 800\%. Used SciPy,
+   NumPy, and Weave to accheive these dramatic speed improvements. Also
+   wrote scripts to automate deployment and logging on Amazon Web Services
+   }\\[5pt]
+
    \raggedleft
    \textsc{\normalsize January 2011 -- May 2011}\par
    \raggedright\large Undergraduate Researcher\\
    \textsc{NASA Ames Research Center}\\
-   \normalsize{Created an Automatic KML Tour Generator and KML Tour 
+   \normalsize{Created an Automatic KML Tour Generator and KML Tour
    Editor using Django, Python, SQL, and Javascript. Media import tool
-   pulls from several different sources and loads all data into a 
+   pulls from several different sources and loads all data into a
    database. Project generated a whole new set of data products for
    the Maps team.}\\[5pt]
-
-   \raggedleft
-   \textsc{\normalsize August 2010 -- December 2010}\par
-   \raggedright\large Academic Engagement and IT Governance\\
-   \textsc{Western Carolina University}\\
-   \normalsize{Resolved IT issues involving several topics from 
-   networking to software configuration. Also taught several 
-   workshops on web development.}\\[5pt]
 
    \raggedleft
    \textsc{\normalsize June 2010 -- August 2010}\par
@@ -81,36 +93,22 @@ Typeset with X\LaTeX}
    which culminated in the design a mass properties API. Also worked
    with an 8 person team to design and evaluate a series of tests on
    a flotation concept. If implemented project could save millons of
-   dollars. Findings were published to NASA's main webpage, AIAA 
+   dollars. Findings were published to NASA's main webpage, AIAA
    newsletter, and several other notable websites.}\\[5pt]
-
-   \raggedleft
-   \textsc{\normalsize August 2009 -- June 2010}\par
-   \raggedright\large Lab Admin and Teaching Assistant\\ 
-   \textsc{Western Carolina University}\\
-   \normalsize{Assisted professor and students in an undergraduate 
-   computer science course. Maintained the computer science lab 
-   computers running Linux, Windows, and OSX with several VMs.
-   Created scripts to automatically update all computers and all VMs.
-   Managed backups leading to a \%5 decrease in downtime.}\\[5pt]
 
 \section{\textsc{Technical Skills}}
    \begin{tabular}{rl}
       \textbf{\textsc{Languages}}:
                         & \textbf{Professional}:\\
-                        & Java, C, Python, (My,Postgre)SQL,\\
-                        & HTML/CSS/Javascript, XML\\
-                        & \\
+                        & c, java, python\\
+                        & HTML/CSS/javascript\\
                         & \textbf{Familiar}:\\
-                        & Scheme (Lisp), PHP, C++\\
-                        & Perl, Prolog, Objective-C\\
+                        & ruby, go, prolog, php, C++\\
+                        & perl, Objective-C, LISP\\
                         & \\
-      \textbf{\textsc{Frameworks}}:
-                        & Cocoa, jQuery, Wordpress, Django\\
-                        & \\
-      \textbf{\textsc{Tools}}:
-                        & Eclipse, Mathematica, Labview,\\
-                        & XCode, ViM, ant, jUnit\\
+      \textbf{\textsc{Tools and Frameworks}}:
+                        & general devops, chef, puppet\\
+                        & mongodb, sql, vim, emacs, git\\
                         & \\
       \textbf{\textsc{Mathematics}}:
                         & Formal Logic and Proof Techniques,\\
@@ -126,30 +124,26 @@ Typeset with X\LaTeX}
       \begin{tabular}{c|p{4.25cm}r}
                                     %Can't include this in a lot of forms.
                                     %& Born in North Carolina in 1991\\
-         \raisebox{-1pt}{\Phone}    &+1(650) 690-0657
+         \raisebox{-1pt}{\Phone}    &+1(910) 249-9253
          &\raisebox{2.9pt}{\multirow{2}{*}{
              \includegraphics[height=1.45cm]{randall}
-             }}\\ 
+             }}\\
          \raisebox{-1pt}{\textsc{www}} &
-         \href{http://www.jrhunt.org/}{www.jrhunt.org}&\\
+         \href{http://blog.ranman.org/}{www.ranman.org}&\\
          \raisebox{-3pt}{\Envelope} &
-         \href{mailto:randall.hunt@gmail.com}{randall.hunt@gmail.com}& 
+         \href{mailto:randallhunt@gmail.com}{randall.hunt@gmail.com}&
       \end{tabular}
     }
 }\\[3pt]
 
 \section{Education}
 \begin{tabular}{rl}
-   \textsc{May} 2012 & B.S. in \textsc{Computer Science and Math}\\
       & \textbf{Western Carolina University}\\
-      %& Major GPA: \textbf{3.67}\\
       & Cullowhee, NC\\
       &\\
-   \textsc{June} 2009 & High School\\
-      & \textbf{Punahou Academy}\\
+      & \textbf{Punahou}\\
       & Honolulu, Hawaii\\
       &\\
-   \textsc{Summer} 2007 & Certificate of Proficiency in French\\
       & \textbf{Université Catholique De L'Ouest}\\
       & Angers, France\\
 \end{tabular}\\[5pt]
@@ -158,11 +152,23 @@ Typeset with X\LaTeX}
 \begin{tabular}{rl}
    \textsc{French}   &  Proficient\\
    \textsc{German}   &  Conversational\\
-   \textsc{Russian}  &  Basic\\
    \textsc{Spanish}  &  Learner\\
 \end{tabular}\\[5pt]
 
-\section{Activities and Societies}
+\section{Relevant Projects (available on github)}
+   Gitshots in Python\\
+   Multiuser Chat System in Java\\
+   Address Book with RMI in Java\\
+   Set Associative Cache Simulator in Java\\
+   Paint Clone in Java\\
+   Email Client in Java\\
+   Tokenizer and Parser in C\\
+   Wireless Sensor Grapher in TinyC+Java\\
+   TCP Implementation in TinyC\\
+   Adventure Game in Prolog\\
+
+\section{Awards/Presentations/Stuff}
+   \href{http://hackny.org/a/about/}{HackNY Fellow and Mentor}
    IEEE Member\\
    \href{http://polaris.cs.wcu.edu/~acm/}{Student ACM Chapter}\\
    \href{https://github.com/ranman}{Open-Source Contributor}\\
@@ -171,23 +177,11 @@ Typeset with X\LaTeX}
    Passionate about Robotics\href{http://robotics.punahou.edu/}{[1]}
    \href{http://irg.arc.nasa.gov}{[2]}\\
    \href{http://www.youtube.com/user/ranman96734}{Rubik's Cubes}\\
-   \href{http://www.punahouaquatics.org/Home.jsp?team=hipaq}
-   {Love to Surf and Swim}\\
-\section{Coursework}
-   Multiuser Chat System in Java\\
-   Address Book with RMI in Java\\
-   Set Associative Cache Simulator in Java\\
-   Tokenizer and Parser in C\\
-   Paint Clone in Java\\
-   Email Client in Java\\
-   Wireless Sensor Grapher in TinyC+Java\\
-   TCP Implementation in TinyC\\
-   Adventure Game in Prolog\\
-\section{Honors}
+   Bicycles!
    Academic Technology Advisory Committee\\
    AP Scholar's Award\\
    Several Presenations at NASA\\
-   Dean's List\\
    Honors College\\
+   Won several hackathons\\
 \end{minipage}
 \end{document}
